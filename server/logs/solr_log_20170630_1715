@@ -1,0 +1,1222 @@
+INFO  - 2017-06-29 15:59:46.624; [   ] org.eclipse.jetty.util.log.Log; Logging initialized @545ms
+INFO  - 2017-06-29 15:59:46.950; [   ] org.eclipse.jetty.server.Server; jetty-9.2.10.v20150310
+WARN  - 2017-06-29 15:59:46.974; [   ] org.eclipse.jetty.server.handler.RequestLogHandler; !RequestLog
+INFO  - 2017-06-29 15:59:46.977; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor [file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/contexts/] at interval 0
+INFO  - 2017-06-29 15:59:47.544; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+WARN  - 2017-06-29 15:59:47.577; [   ] org.eclipse.jetty.security.ConstraintSecurityHandler; ServletContext@o.e.j.w.WebAppContext@6767c1fc{/solr,file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr-webapp/webapp/,STARTING}{/solr.war} has uncovered http methods for path: /
+INFO  - 2017-06-29 15:59:47.613; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()WebAppClassLoader=94345706@59f99ea
+INFO  - 2017-06-29 15:59:47.639; [   ] org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2017-06-29 15:59:47.640; [   ] org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr
+INFO  - 2017-06-29 15:59:47.642; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/'
+INFO  - 2017-06-29 15:59:47.882; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/solr.xml
+INFO  - 2017-06-29 15:59:48.049; [   ] org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr
+INFO  - 2017-06-29 15:59:48.090; [   ] org.apache.solr.core.CoreContainer; New CoreContainer 1939990953
+INFO  - 2017-06-29 15:59:48.091; [   ] org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/]
+INFO  - 2017-06-29 15:59:48.091; [   ] org.apache.solr.core.CoreContainer; loading shared library: /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/lib
+WARN  - 2017-06-29 15:59:48.091; [   ] org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/lib).
+INFO  - 2017-06-29 15:59:48.117; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+INFO  - 2017-06-29 15:59:48.592; [   ] org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+INFO  - 2017-06-29 15:59:48.595; [   ] org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2017-06-29 15:59:48.596; [   ] org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2017-06-29 15:59:48.597; [   ] org.apache.solr.core.CoreContainer; Node Name: 
+INFO  - 2017-06-29 15:59:48.598; [   ] org.apache.solr.core.CoreContainer; No authentication plugin used.
+INFO  - 2017-06-29 15:59:48.650; [   ] org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr
+INFO  - 2017-06-29 15:59:48.687; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=archive_estc-bib, config=solrconfig.xml, instanceDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives, loadOnStartup=true, absoluteInstDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/, schema=schema.xml, transient=false, dataDir=archive_estc-bib}
+INFO  - 2017-06-29 15:59:48.689; [   ] org.apache.solr.core.CorePropertiesLocator; Found core archive_estc-bib in /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/
+INFO  - 2017-06-29 15:59:48.699; [   ] org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2017-06-29 15:59:48.702; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/'
+INFO  - 2017-06-29 15:59:48.774; [   ] org.apache.solr.core.SolrConfig; current version of requestparams : -1
+INFO  - 2017-06-29 15:59:48.779; [   ] org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2017-06-29 15:59:48.781; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-dataimporthandler-5.2.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.782; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-dataimporthandler-extras-5.2.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.784; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2017-06-29 15:59:48.784; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2017-06-29 15:59:48.785; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.785; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2017-06-29 15:59:48.785; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2017-06-29 15:59:48.785; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.786; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+INFO  - 2017-06-29 15:59:48.786; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+INFO  - 2017-06-29 15:59:48.786; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+INFO  - 2017-06-29 15:59:48.786; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+INFO  - 2017-06-29 15:59:48.787; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+INFO  - 2017-06-29 15:59:48.787; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.787; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+INFO  - 2017-06-29 15:59:48.787; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.788; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2017-06-29 15:59:48.788; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2017-06-29 15:59:48.788; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+INFO  - 2017-06-29 15:59:48.788; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+INFO  - 2017-06-29 15:59:48.789; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+INFO  - 2017-06-29 15:59:48.789; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+INFO  - 2017-06-29 15:59:48.789; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+INFO  - 2017-06-29 15:59:48.790; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.790; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2017-06-29 15:59:48.790; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+INFO  - 2017-06-29 15:59:48.790; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+INFO  - 2017-06-29 15:59:48.791; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+INFO  - 2017-06-29 15:59:48.791; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+INFO  - 2017-06-29 15:59:48.791; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+INFO  - 2017-06-29 15:59:48.791; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+INFO  - 2017-06-29 15:59:48.791; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2017-06-29 15:59:48.792; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.792; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2017-06-29 15:59:48.792; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+INFO  - 2017-06-29 15:59:48.793; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-cell-5.2.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.795; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2017-06-29 15:59:48.795; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.796; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2017-06-29 15:59:48.796; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2017-06-29 15:59:48.796; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2017-06-29 15:59:48.797; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.797; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2017-06-29 15:59:48.797; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2017-06-29 15:59:48.798; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-clustering-5.2.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.798; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2017-06-29 15:59:48.798; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2017-06-29 15:59:48.799; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-langid-5.2.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.800; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2017-06-29 15:59:48.800; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2017-06-29 15:59:48.800; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2017-06-29 15:59:48.801; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.802; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-velocity-5.2.0.jar' to classloader
+INFO  - 2017-06-29 15:59:48.982; [   ] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-06-29 15:59:48.993; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 5.2.0
+INFO  - 2017-06-29 15:59:49.146; [   ] org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2017-06-29 15:59:49.156; [   ] org.apache.solr.schema.IndexSchema; Reading Solr Schema from /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf/schema.xml
+INFO  - 2017-06-29 15:59:49.238; [   ] org.apache.solr.schema.IndexSchema; [archive_estc-bib] Schema name=example-DIH-solr
+WARN  - 2017-06-29 15:59:49.760; [   ] org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.ThaiWordFilterFactory]. Please consult documentation how to replace it accordingly.
+INFO  - 2017-06-29 15:59:49.802; [   ] org.apache.solr.schema.IndexSchema; unique key field: uri
+INFO  - 2017-06-29 15:59:49.910; [   ] org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2017-06-29 15:59:49.916; [   ] org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2017-06-29 15:59:50.086; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'archive_estc-bib' using configuration from instancedir /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/
+INFO  - 2017-06-29 15:59:50.094; [   archive_estc-bib] org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2017-06-29 15:59:50.113; [   archive_estc-bib] org.apache.solr.core.SolrCore; [[archive_estc-bib] ] Opening new SolrCore at [/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/], dataDir=[null]
+INFO  - 2017-06-29 15:59:50.117; [   archive_estc-bib] org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2017-06-29 15:59:50.123; [   archive_estc-bib] org.apache.solr.core.SolrCore; [[archive_estc-bib] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+INFO  - 2017-06-29 15:59:50.123; [   archive_estc-bib] org.apache.solr.core.SolrCore; [[archive_estc-bib] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+INFO  - 2017-06-29 15:59:50.141; [   archive_estc-bib] org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estc-bib
+INFO  - 2017-06-29 15:59:50.142; [   archive_estc-bib] org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estc-bib/index/
+WARN  - 2017-06-29 15:59:50.142; [   archive_estc-bib] org.apache.solr.core.SolrCore; [archive_estc-bib] Solr index directory '/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estc-bib/index' doesn't exist. Creating new index...
+INFO  - 2017-06-29 15:59:50.156; [   archive_estc-bib] org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estc-bib/index
+INFO  - 2017-06-29 15:59:50.209; [   archive_estc-bib] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estc-bib/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4b314670; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2017-06-29 15:59:50.210; [   archive_estc-bib] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2017-06-29 15:59:50.213; [   archive_estc-bib] org.apache.solr.core.PluginBag; queryResponseWriter : 'velocity' created with startup=lazy 
+INFO  - 2017-06-29 15:59:50.216; [   archive_estc-bib] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-06-29 15:59:50.357; [   archive_estc-bib] org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2017-06-29 15:59:50.405; [   archive_estc-bib] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-29 15:59:50.408; [   archive_estc-bib] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-29 15:59:50.409; [   archive_estc-bib] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-29 15:59:50.410; [   archive_estc-bib] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-29 15:59:50.437; [   archive_estc-bib] org.apache.solr.core.PluginBag; requestHandler : '/update/extract' created with startup=lazy 
+INFO  - 2017-06-29 15:59:50.437; [   archive_estc-bib] org.apache.solr.core.PluginBag; requestHandler : '/analysis/field' created with startup=lazy 
+INFO  - 2017-06-29 15:59:50.437; [   archive_estc-bib] org.apache.solr.core.PluginBag; requestHandler : '/analysis/document' created with startup=lazy 
+INFO  - 2017-06-29 15:59:50.440; [   archive_estc-bib] org.apache.solr.core.PluginBag; requestHandler : '/suggest' created with startup=lazy 
+INFO  - 2017-06-29 15:59:50.440; [   archive_estc-bib] org.apache.solr.core.PluginBag; requestHandler : '/tvrh' created with startup=lazy 
+INFO  - 2017-06-29 15:59:50.440; [   archive_estc-bib] org.apache.solr.core.PluginBag; requestHandler : '/terms' created with startup=lazy 
+INFO  - 2017-06-29 15:59:50.441; [   archive_estc-bib] org.apache.solr.core.PluginBag; requestHandler : '/elevate' created with startup=lazy 
+INFO  - 2017-06-29 15:59:50.441; [   archive_estc-bib] org.apache.solr.core.RequestHandlers; Registered paths: /admin/mbeans,/browse,/spellchecker,/update/json/docs,/admin/luke,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/suggest,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/dataimport,/update/extract
+INFO  - 2017-06-29 15:59:50.443; [   archive_estc-bib] org.apache.solr.core.SolrCore; Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+INFO  - 2017-06-29 15:59:50.454; [   archive_estc-bib] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2017-06-29 15:59:50.454; [   archive_estc-bib] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2017-06-29 15:59:50.463; [   archive_estc-bib] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-06-29 15:59:50.463; [   archive_estc-bib] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-06-29 15:59:50.473; [   archive_estc-bib] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estc-bib/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4b314670; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2017-06-29 15:59:50.473; [   archive_estc-bib] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2017-06-29 15:59:50.490; [   archive_estc-bib] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@1bb7178f[archive_estc-bib] main
+INFO  - 2017-06-29 15:59:50.499; [   archive_estc-bib] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf
+INFO  - 2017-06-29 15:59:50.500; [   archive_estc-bib] org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf}
+INFO  - 2017-06-29 15:59:50.518; [   archive_estc-bib] org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf
+INFO  - 2017-06-29 15:59:50.518; [   archive_estc-bib] org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2017-06-29 15:59:50.528; [   archive_estc-bib] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-06-29 15:59:50.532; [   archive_estc-bib] org.apache.solr.spelling.suggest.Suggester; init: {name=spellcheck,field=name_autocomplete,classname=org.apache.solr.spelling.suggest.Suggester,lookupImpl=org.apache.solr.spelling.suggest.tst.TSTLookupFactory,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-06-29 15:59:50.547; [   archive_estc-bib] org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2017-06-29 15:59:50.549; [   archive_estc-bib] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2017-06-29 15:59:50.551; [   archive_estc-bib] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-06-29 15:59:50.564; [   archive_estc-bib] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-06-29 15:59:50.565; [   archive_estc-bib] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@55b010d, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2017-06-29 15:59:50.566; [   archive_estc-bib] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf/elevate.xml
+INFO  - 2017-06-29 15:59:50.579; [   archive_estc-bib] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-06-29 15:59:50.586; [   archive_estc-bib] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@1bb7178f[archive_estc-bib] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-06-29 15:59:50.587; [   archive_estc-bib] org.apache.solr.update.UpdateLog; Looking up max value of version field to seed version buckets
+INFO  - 2017-06-29 15:59:50.587; [   archive_estc-bib] org.apache.solr.update.VersionInfo; Refreshing highest value of _version_ for 65536 version buckets from index
+INFO  - 2017-06-29 15:59:50.588; [   archive_estc-bib] org.apache.solr.update.VersionInfo; No terms found for _version_, cannot seed version bucket highest value from index
+INFO  - 2017-06-29 15:59:50.588; [   archive_estc-bib] org.apache.solr.update.UpdateLog; Could not find max version in index or recent updates, using new clock 1571555367282802688
+INFO  - 2017-06-29 15:59:50.594; [   archive_estc-bib] org.apache.solr.update.UpdateLog; Took 7 ms to seed version buckets with highest version 1571555367282802688
+INFO  - 2017-06-29 15:59:50.595; [   archive_estc-bib] org.apache.solr.core.CoreContainer; registering core: archive_estc-bib
+INFO  - 2017-06-29 15:59:50.596; [   ] org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server
+INFO  - 2017-06-29 15:59:50.597; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2017-06-29 15:59:50.621; [   ] org.eclipse.jetty.server.handler.ContextHandler; Started o.e.j.w.WebAppContext@6767c1fc{/solr,file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr-webapp/webapp/,AVAILABLE}{/solr.war}
+INFO  - 2017-06-29 15:59:50.654; [   ] org.eclipse.jetty.server.AbstractConnector; Started ServerConnector@2cf3d63b{HTTP/1.1}{0.0.0.0:8983}
+INFO  - 2017-06-29 15:59:50.655; [   ] org.eclipse.jetty.server.Server; Started @4578ms
+INFO  - 2017-06-29 15:59:50.672; [   archive_estc-bib] org.apache.solr.core.SolrCore; [archive_estc-bib] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=82 
+INFO  - 2017-06-29 15:59:50.672; [   archive_estc-bib] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-06-29 15:59:50.673; [   archive_estc-bib] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: spellcheck
+INFO  - 2017-06-29 15:59:50.673; [   archive_estc-bib] org.apache.solr.spelling.suggest.Suggester; reload()
+INFO  - 2017-06-29 15:59:50.673; [   archive_estc-bib] org.apache.solr.spelling.suggest.Suggester; build()
+INFO  - 2017-06-29 15:59:50.684; [   archive_estc-bib] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-06-29 15:59:50.685; [   archive_estc-bib] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2017-06-29 15:59:50.685; [   archive_estc-bib] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2017-06-29 15:59:50.693; [   archive_estc-bib] org.apache.solr.core.SolrCore; [archive_estc-bib] Registered new searcher Searcher@1bb7178f[archive_estc-bib] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-06-29 16:16:56.913; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498753016903} status=0 QTime=5 
+INFO  - 2017-06-29 16:16:56.994; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498753016954} status=0 QTime=37 
+INFO  - 2017-06-29 16:17:24.117; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498753044112} status=0 QTime=0 
+INFO  - 2017-06-29 16:17:24.176; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498753044159} status=0 QTime=14 
+INFO  - 2017-06-29 16:17:25.945; [   archive_estc-bib] org.apache.solr.core.SolrCore; [archive_estc-bib] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1498753045920} status=0 QTime=3 
+INFO  - 2017-06-29 16:17:25.948; [   archive_estc-bib] org.apache.solr.core.SolrCore; [archive_estc-bib] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1498753045921} status=0 QTime=1 
+INFO  - 2017-06-29 16:17:25.980; [   archive_estc-bib] org.apache.solr.core.SolrCore; [archive_estc-bib] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1498753045968} status=0 QTime=2 
+INFO  - 2017-06-29 16:17:25.985; [   archive_estc-bib] org.apache.solr.core.SolrCore; [archive_estc-bib] webapp=/solr path=/replication params={wt=json&command=details&_=1498753045975} status=0 QTime=4 
+INFO  - 2017-06-29 16:17:25.991; [   archive_estc-bib] org.apache.solr.core.SolrCore; [archive_estc-bib] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1498753045979} status=0 QTime=0 
+INFO  - 2017-06-29 16:17:25.998; [   archive_estc-bib] org.apache.solr.core.SolrCore; [archive_estc-bib] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1498753045988} status=503 QTime=3 
+INFO  - 2017-06-29 16:17:26.005; [   archive_estc-bib] org.apache.solr.core.SolrCore; [archive_estc-bib] webapp=/solr path=/admin/system params={wt=json&_=1498753045977} status=0 QTime=18 
+INFO  - 2017-06-29 16:17:31.121; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1498753051117} status=0 QTime=1 
+INFO  - 2017-06-29 16:17:31.152; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={wt=json&_=1498753051148} status=0 QTime=1 
+INFO  - 2017-06-29 16:18:23.407; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={action=STATUS} status=0 QTime=1 
+INFO  - 2017-06-29 16:18:23.425; [   ] org.apache.solr.handler.admin.CoreAdminHandler; core create command name=archive_estcstar&action=CREATE&instanceDir=archives&dataDir=archive_estcstar
+INFO  - 2017-06-29 16:18:23.426; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=archive_estcstar, config=solrconfig.xml, instanceDir=archives, loadOnStartup=true, absoluteInstDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/, schema=schema.xml, transient=false, dataDir=archive_estcstar}
+INFO  - 2017-06-29 16:18:23.426; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/'
+INFO  - 2017-06-29 16:18:23.460; [   ] org.apache.solr.core.SolrConfig; current version of requestparams : -1
+INFO  - 2017-06-29 16:18:23.462; [   ] org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2017-06-29 16:18:23.462; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-dataimporthandler-5.2.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.463; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-dataimporthandler-extras-5.2.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.464; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2017-06-29 16:18:23.464; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2017-06-29 16:18:23.465; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.465; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2017-06-29 16:18:23.465; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2017-06-29 16:18:23.465; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.466; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+INFO  - 2017-06-29 16:18:23.466; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+INFO  - 2017-06-29 16:18:23.466; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+INFO  - 2017-06-29 16:18:23.467; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+INFO  - 2017-06-29 16:18:23.467; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+INFO  - 2017-06-29 16:18:23.467; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.467; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+INFO  - 2017-06-29 16:18:23.468; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.468; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2017-06-29 16:18:23.468; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2017-06-29 16:18:23.468; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+INFO  - 2017-06-29 16:18:23.469; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+INFO  - 2017-06-29 16:18:23.469; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+INFO  - 2017-06-29 16:18:23.469; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+INFO  - 2017-06-29 16:18:23.469; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+INFO  - 2017-06-29 16:18:23.470; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.470; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2017-06-29 16:18:23.470; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+INFO  - 2017-06-29 16:18:23.471; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+INFO  - 2017-06-29 16:18:23.471; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+INFO  - 2017-06-29 16:18:23.471; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+INFO  - 2017-06-29 16:18:23.471; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+INFO  - 2017-06-29 16:18:23.472; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+INFO  - 2017-06-29 16:18:23.472; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2017-06-29 16:18:23.472; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.472; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2017-06-29 16:18:23.473; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+INFO  - 2017-06-29 16:18:23.473; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-cell-5.2.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.474; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2017-06-29 16:18:23.474; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.475; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2017-06-29 16:18:23.475; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2017-06-29 16:18:23.475; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2017-06-29 16:18:23.476; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.476; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2017-06-29 16:18:23.476; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2017-06-29 16:18:23.477; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-clustering-5.2.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.478; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2017-06-29 16:18:23.478; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2017-06-29 16:18:23.479; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-langid-5.2.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.480; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2017-06-29 16:18:23.480; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2017-06-29 16:18:23.480; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2017-06-29 16:18:23.480; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.481; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-velocity-5.2.0.jar' to classloader
+INFO  - 2017-06-29 16:18:23.529; [   ] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-06-29 16:18:23.531; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 5.2.0
+INFO  - 2017-06-29 16:18:23.558; [   ] org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2017-06-29 16:18:23.559; [   ] org.apache.solr.schema.IndexSchema; Reading Solr Schema from /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf/schema.xml
+INFO  - 2017-06-29 16:18:23.587; [   ] org.apache.solr.schema.IndexSchema; [archive_estcstar] Schema name=example-DIH-solr
+INFO  - 2017-06-29 16:18:23.860; [   ] org.apache.solr.schema.IndexSchema; unique key field: uri
+INFO  - 2017-06-29 16:18:23.885; [   ] org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2017-06-29 16:18:23.889; [   ] org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2017-06-29 16:18:23.925; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'archive_estcstar' using configuration from instancedir /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/
+INFO  - 2017-06-29 16:18:23.926; [   archive_estcstar] org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2017-06-29 16:18:23.926; [   archive_estcstar] org.apache.solr.core.SolrCore; [[archive_estcstar] ] Opening new SolrCore at [/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/], dataDir=[null]
+INFO  - 2017-06-29 16:18:23.927; [   archive_estcstar] org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2017-06-29 16:18:23.927; [   archive_estcstar] org.apache.solr.core.SolrCore; [[archive_estcstar] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+INFO  - 2017-06-29 16:18:23.928; [   archive_estcstar] org.apache.solr.core.SolrCore; [[archive_estcstar] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+INFO  - 2017-06-29 16:18:23.928; [   archive_estcstar] org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar
+INFO  - 2017-06-29 16:18:23.929; [   archive_estcstar] org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar/index/
+INFO  - 2017-06-29 16:18:23.930; [   archive_estcstar] org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar/index
+INFO  - 2017-06-29 16:18:23.931; [   archive_estcstar] org.apache.solr.core.PluginBag; queryResponseWriter : 'velocity' created with startup=lazy 
+INFO  - 2017-06-29 16:18:23.932; [   archive_estcstar] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-06-29 16:18:23.935; [   archive_estcstar] org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2017-06-29 16:18:23.938; [   archive_estcstar] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-29 16:18:23.939; [   archive_estcstar] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-29 16:18:23.940; [   archive_estcstar] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-29 16:18:23.941; [   archive_estcstar] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-29 16:18:23.953; [   archive_estcstar] org.apache.solr.core.PluginBag; requestHandler : '/update/extract' created with startup=lazy 
+INFO  - 2017-06-29 16:18:23.954; [   archive_estcstar] org.apache.solr.core.PluginBag; requestHandler : '/analysis/field' created with startup=lazy 
+INFO  - 2017-06-29 16:18:23.954; [   archive_estcstar] org.apache.solr.core.PluginBag; requestHandler : '/analysis/document' created with startup=lazy 
+INFO  - 2017-06-29 16:18:23.955; [   archive_estcstar] org.apache.solr.core.PluginBag; requestHandler : '/suggest' created with startup=lazy 
+INFO  - 2017-06-29 16:18:23.955; [   archive_estcstar] org.apache.solr.core.PluginBag; requestHandler : '/tvrh' created with startup=lazy 
+INFO  - 2017-06-29 16:18:23.955; [   archive_estcstar] org.apache.solr.core.PluginBag; requestHandler : '/terms' created with startup=lazy 
+INFO  - 2017-06-29 16:18:23.955; [   archive_estcstar] org.apache.solr.core.PluginBag; requestHandler : '/elevate' created with startup=lazy 
+INFO  - 2017-06-29 16:18:23.956; [   archive_estcstar] org.apache.solr.core.RequestHandlers; Registered paths: /admin/mbeans,/browse,/spellchecker,/update/json/docs,/admin/luke,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/suggest,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/dataimport,/update/extract
+INFO  - 2017-06-29 16:18:23.957; [   archive_estcstar] org.apache.solr.core.SolrCore; Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+INFO  - 2017-06-29 16:18:23.958; [   archive_estcstar] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2017-06-29 16:18:23.959; [   archive_estcstar] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2017-06-29 16:18:23.975; [   archive_estcstar] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-06-29 16:18:23.975; [   archive_estcstar] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-06-29 16:18:23.985; [   archive_estcstar] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4b314670; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+INFO  - 2017-06-29 16:18:23.985; [   archive_estcstar] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 2
+INFO  - 2017-06-29 16:18:24.027; [   archive_estcstar] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@6a55ccce[archive_estcstar] main
+INFO  - 2017-06-29 16:18:24.028; [   archive_estcstar] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf
+INFO  - 2017-06-29 16:18:24.028; [   archive_estcstar] org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf}
+INFO  - 2017-06-29 16:18:24.029; [   archive_estcstar] org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf
+INFO  - 2017-06-29 16:18:24.029; [   archive_estcstar] org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2017-06-29 16:18:24.029; [   archive_estcstar] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-06-29 16:18:24.030; [   archive_estcstar] org.apache.solr.spelling.suggest.Suggester; init: {name=spellcheck,field=name_autocomplete,classname=org.apache.solr.spelling.suggest.Suggester,lookupImpl=org.apache.solr.spelling.suggest.tst.TSTLookupFactory,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-06-29 16:18:24.030; [   archive_estcstar] org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2017-06-29 16:18:24.030; [   archive_estcstar] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2017-06-29 16:18:24.030; [   archive_estcstar] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-06-29 16:18:24.030; [   archive_estcstar] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-06-29 16:18:24.031; [   archive_estcstar] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@10ef5a8c, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2017-06-29 16:18:24.031; [   archive_estcstar] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf/elevate.xml
+INFO  - 2017-06-29 16:18:24.035; [   archive_estcstar] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-06-29 16:18:24.040; [   archive_estcstar] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@6a55ccce[archive_estcstar] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.2.0):C695)))}
+INFO  - 2017-06-29 16:18:24.040; [   archive_estcstar] org.apache.solr.update.UpdateLog; Looking up max value of version field to seed version buckets
+INFO  - 2017-06-29 16:18:24.041; [   archive_estcstar] org.apache.solr.update.VersionInfo; Refreshing highest value of _version_ for 65536 version buckets from index
+INFO  - 2017-06-29 16:18:24.055; [   archive_estcstar] org.apache.solr.update.VersionInfo; Found MAX value 1571442059879907328 from Terms for _version_ in index
+INFO  - 2017-06-29 16:18:24.057; [   archive_estcstar] org.apache.solr.update.UpdateLog; Took 17 ms to seed version buckets with highest version 1571442059879907328
+INFO  - 2017-06-29 16:18:24.057; [   archive_estcstar] org.apache.solr.core.CoreContainer; registering core: archive_estcstar
+ERROR - 2017-06-29 16:18:24.060; [   archive_estcstar] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'archive_estcstar': Could not create a new core in /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/as another core is already defined there
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:661)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not create a new core in /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/as another core is already defined there
+	at org.apache.solr.core.CorePropertiesLocator.create(CorePropertiesLocator.java:59)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:631)
+	... 27 more
+
+INFO  - 2017-06-29 16:18:24.060; [   archive_estcstar] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={dataDir=archive_estcstar&name=archive_estcstar&action=CREATE&instanceDir=archives} status=400 QTime=635 
+INFO  - 2017-06-29 16:18:24.062; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=479 status=0 QTime=22 
+INFO  - 2017-06-29 16:18:24.075; [   archive_estcstar] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-06-29 16:18:24.075; [   archive_estcstar] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: spellcheck
+INFO  - 2017-06-29 16:18:24.075; [   archive_estcstar] org.apache.solr.spelling.suggest.Suggester; reload()
+INFO  - 2017-06-29 16:18:24.076; [   archive_estcstar] org.apache.solr.spelling.suggest.Suggester; build()
+INFO  - 2017-06-29 16:18:24.077; [   archive_estcstar] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-06-29 16:18:24.077; [   archive_estcstar] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2017-06-29 16:18:24.077; [   archive_estcstar] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2017-06-29 16:18:24.120; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] Registered new searcher Searcher@6a55ccce[archive_estcstar] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.2.0):C695)))}
+INFO  - 2017-06-29 16:18:54.071; [   ] org.apache.solr.handler.admin.CoreAdminHandler; core create command name=archive_estcstar&action=CREATE&instanceDir=archives&dataDir=archive_estcstar
+INFO  - 2017-06-29 16:18:54.071; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=archive_estcstar, config=solrconfig.xml, instanceDir=archives, loadOnStartup=true, absoluteInstDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/, schema=schema.xml, transient=false, dataDir=archive_estcstar}
+WARN  - 2017-06-29 16:18:54.072; [   ] org.apache.solr.handler.admin.CoreAdminHandler; Creating a core with existing name is not allowed
+ERROR - 2017-06-29 16:18:54.072; [   ] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Core with name 'archive_estcstar' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:18:54.072; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={dataDir=archive_estcstar&name=archive_estcstar&action=CREATE&instanceDir=archives} status=500 QTime=2 
+ERROR - 2017-06-29 16:18:54.073; [   ] org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Core with name 'archive_estcstar' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:19:24.084; [   ] org.apache.solr.handler.admin.CoreAdminHandler; core create command name=archive_estcstar&action=CREATE&instanceDir=archives&dataDir=archive_estcstar
+INFO  - 2017-06-29 16:19:24.085; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=archive_estcstar, config=solrconfig.xml, instanceDir=archives, loadOnStartup=true, absoluteInstDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/, schema=schema.xml, transient=false, dataDir=archive_estcstar}
+WARN  - 2017-06-29 16:19:24.085; [   ] org.apache.solr.handler.admin.CoreAdminHandler; Creating a core with existing name is not allowed
+ERROR - 2017-06-29 16:19:24.086; [   ] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Core with name 'archive_estcstar' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:19:24.087; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={dataDir=archive_estcstar&name=archive_estcstar&action=CREATE&instanceDir=archives} status=500 QTime=3 
+ERROR - 2017-06-29 16:19:24.087; [   ] org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Core with name 'archive_estcstar' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:19:28.421; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498753168416} status=0 QTime=1 
+INFO  - 2017-06-29 16:19:28.468; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498753168449} status=0 QTime=16 
+INFO  - 2017-06-29 16:19:32.202; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1498753172179} status=0 QTime=1 
+INFO  - 2017-06-29 16:19:32.202; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1498753172179} status=0 QTime=1 
+INFO  - 2017-06-29 16:19:32.240; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1498753172221} status=0 QTime=1 
+INFO  - 2017-06-29 16:19:32.243; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/replication params={wt=json&command=details&_=1498753172227} status=0 QTime=1 
+INFO  - 2017-06-29 16:19:32.245; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1498753172233} status=0 QTime=0 
+INFO  - 2017-06-29 16:19:32.248; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1498753172235} status=503 QTime=0 
+INFO  - 2017-06-29 16:19:32.274; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/system params={wt=json&_=1498753172230} status=0 QTime=27 
+INFO  - 2017-06-29 16:19:54.096; [   ] org.apache.solr.handler.admin.CoreAdminHandler; core create command name=archive_estcstar&action=CREATE&instanceDir=archives&dataDir=archive_estcstar
+INFO  - 2017-06-29 16:19:54.097; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=archive_estcstar, config=solrconfig.xml, instanceDir=archives, loadOnStartup=true, absoluteInstDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/, schema=schema.xml, transient=false, dataDir=archive_estcstar}
+WARN  - 2017-06-29 16:19:54.097; [   ] org.apache.solr.handler.admin.CoreAdminHandler; Creating a core with existing name is not allowed
+ERROR - 2017-06-29 16:19:54.097; [   ] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Core with name 'archive_estcstar' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:19:54.098; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={dataDir=archive_estcstar&name=archive_estcstar&action=CREATE&instanceDir=archives} status=500 QTime=2 
+ERROR - 2017-06-29 16:19:54.098; [   ] org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Core with name 'archive_estcstar' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:20:24.110; [   ] org.apache.solr.handler.admin.CoreAdminHandler; core create command name=archive_estcstar&action=CREATE&instanceDir=archives&dataDir=archive_estcstar
+INFO  - 2017-06-29 16:20:24.111; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=archive_estcstar, config=solrconfig.xml, instanceDir=archives, loadOnStartup=true, absoluteInstDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/, schema=schema.xml, transient=false, dataDir=archive_estcstar}
+WARN  - 2017-06-29 16:20:24.111; [   ] org.apache.solr.handler.admin.CoreAdminHandler; Creating a core with existing name is not allowed
+ERROR - 2017-06-29 16:20:24.111; [   ] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Core with name 'archive_estcstar' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:20:24.112; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={dataDir=archive_estcstar&name=archive_estcstar&action=CREATE&instanceDir=archives} status=500 QTime=2 
+ERROR - 2017-06-29 16:20:24.112; [   ] org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Core with name 'archive_estcstar' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:20:54.202; [   archive_estcstar] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@be191e3[archive_estcstar] realtime
+INFO  - 2017-06-29 16:20:54.204; [   archive_estcstar] org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2017-06-29 16:20:54.206; [   archive_estcstar] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4b314670; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4b314670; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+INFO  - 2017-06-29 16:20:54.207; [   archive_estcstar] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 3
+INFO  - 2017-06-29 16:20:54.210; [   archive_estcstar] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@3d20eb9a[archive_estcstar] main
+INFO  - 2017-06-29 16:20:54.212; [   archive_estcstar] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2017-06-29 16:20:54.212; [   archive_estcstar] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@3d20eb9a[archive_estcstar] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-06-29 16:20:54.212; [   archive_estcstar] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-06-29 16:20:54.213; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] Registered new searcher Searcher@3d20eb9a[archive_estcstar] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-06-29 16:20:54.223; [   archive_estcstar] org.apache.solr.update.processor.LogUpdateProcessor; [archive_estcstar] webapp=/solr path=/update/json params={wt=json} {deleteByQuery=*:* (-1571556692219396096),commit=} 0 91
+INFO  - 2017-06-29 16:21:01.234; [   archive_estcstar] org.apache.solr.update.processor.LogUpdateProcessor; [archive_estcstar] webapp=/solr path=/update/json params={wt=json} {add=[http://estc.bl.uk/N10 (1571556699042480128), http://estc.bl.uk/N100 (1571556699093860352), http://estc.bl.uk/N1000 (1571556699097006080), http://estc.bl.uk/N10000 (1571556699101200384), http://estc.bl.uk/N10001 (1571556699103297536), http://estc.bl.uk/N10002 (1571556699106443264), http://estc.bl.uk/N10003 (1571556699108540416), http://estc.bl.uk/N10004 (1571556699111686144), http://estc.bl.uk/N10005 (1571556699115880448), http://estc.bl.uk/N10006 (1571556699125317632), ... (695 adds)]} 0 584
+INFO  - 2017-06-29 16:21:01.239; [   archive_estcstar] org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2017-06-29 16:21:01.373; [   archive_estcstar] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4b314670; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4b314670; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+INFO  - 2017-06-29 16:21:01.373; [   archive_estcstar] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 4
+INFO  - 2017-06-29 16:21:01.379; [   archive_estcstar] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@14367648[archive_estcstar] main
+INFO  - 2017-06-29 16:21:01.381; [   archive_estcstar] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@14367648[archive_estcstar] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(5.2.0):C695)))}
+INFO  - 2017-06-29 16:21:01.381; [   archive_estcstar] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-06-29 16:21:01.382; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] Registered new searcher Searcher@14367648[archive_estcstar] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(5.2.0):C695)))}
+INFO  - 2017-06-29 16:21:01.383; [   archive_estcstar] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2017-06-29 16:21:01.383; [   archive_estcstar] org.apache.solr.update.processor.LogUpdateProcessor; [archive_estcstar] webapp=/solr path=/update/json params={wt=json} {commit=} 0 144
+INFO  - 2017-06-29 16:21:01.454; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=archive:"estcstar"&fl=*&start=0&sort=uri+asc&fq=isPartOf:http*+OR+hasPart:http*&rows=500&wt=json} hits=0 status=0 QTime=66 
+INFO  - 2017-06-29 16:21:16.615; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498753276607} status=0 QTime=0 
+INFO  - 2017-06-29 16:21:16.691; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498753276669} status=0 QTime=17 
+INFO  - 2017-06-29 16:21:16.725; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1498753276718} status=0 QTime=1 
+INFO  - 2017-06-29 16:21:16.726; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1498753276719} status=0 QTime=1 
+INFO  - 2017-06-29 16:21:16.749; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1498753276740} status=0 QTime=0 
+INFO  - 2017-06-29 16:21:16.752; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/replication params={wt=json&command=details&_=1498753276746} status=0 QTime=1 
+INFO  - 2017-06-29 16:21:16.760; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1498753276750} status=0 QTime=1 
+INFO  - 2017-06-29 16:21:16.766; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1498753276757} status=503 QTime=0 
+INFO  - 2017-06-29 16:21:16.772; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/system params={wt=json&_=1498753276747} status=0 QTime=17 
+INFO  - 2017-06-29 16:25:40.445; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={action=STATUS} status=0 QTime=2 
+INFO  - 2017-06-29 16:25:40.462; [   ] org.apache.solr.handler.admin.CoreAdminHandler; core create command name=archive_estcstar1&action=CREATE&instanceDir=archives&dataDir=archive_estcstar1
+INFO  - 2017-06-29 16:25:40.462; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=archive_estcstar1, config=solrconfig.xml, instanceDir=archives, loadOnStartup=true, absoluteInstDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/, schema=schema.xml, transient=false, dataDir=archive_estcstar1}
+INFO  - 2017-06-29 16:25:40.462; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/'
+INFO  - 2017-06-29 16:25:40.484; [   ] org.apache.solr.core.SolrConfig; current version of requestparams : -1
+INFO  - 2017-06-29 16:25:40.485; [   ] org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2017-06-29 16:25:40.486; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-dataimporthandler-5.2.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.486; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-dataimporthandler-extras-5.2.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.487; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2017-06-29 16:25:40.488; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2017-06-29 16:25:40.488; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.488; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2017-06-29 16:25:40.488; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2017-06-29 16:25:40.488; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.488; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+INFO  - 2017-06-29 16:25:40.488; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+INFO  - 2017-06-29 16:25:40.489; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+INFO  - 2017-06-29 16:25:40.489; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+INFO  - 2017-06-29 16:25:40.489; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+INFO  - 2017-06-29 16:25:40.489; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.489; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+INFO  - 2017-06-29 16:25:40.490; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.490; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2017-06-29 16:25:40.490; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2017-06-29 16:25:40.490; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+INFO  - 2017-06-29 16:25:40.491; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+INFO  - 2017-06-29 16:25:40.491; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+INFO  - 2017-06-29 16:25:40.492; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+INFO  - 2017-06-29 16:25:40.492; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+INFO  - 2017-06-29 16:25:40.492; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.493; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2017-06-29 16:25:40.493; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+INFO  - 2017-06-29 16:25:40.493; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+INFO  - 2017-06-29 16:25:40.493; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+INFO  - 2017-06-29 16:25:40.493; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+INFO  - 2017-06-29 16:25:40.494; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+INFO  - 2017-06-29 16:25:40.494; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+INFO  - 2017-06-29 16:25:40.494; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2017-06-29 16:25:40.494; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.495; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2017-06-29 16:25:40.495; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+INFO  - 2017-06-29 16:25:40.496; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-cell-5.2.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.496; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2017-06-29 16:25:40.496; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.497; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2017-06-29 16:25:40.497; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2017-06-29 16:25:40.497; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2017-06-29 16:25:40.497; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.497; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2017-06-29 16:25:40.497; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2017-06-29 16:25:40.498; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-clustering-5.2.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.498; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2017-06-29 16:25:40.499; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2017-06-29 16:25:40.499; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-langid-5.2.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.499; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2017-06-29 16:25:40.499; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2017-06-29 16:25:40.500; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2017-06-29 16:25:40.500; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.500; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/adeelkamalmalik/Downloads/solr-5.2.0/dist/solr-velocity-5.2.0.jar' to classloader
+INFO  - 2017-06-29 16:25:40.522; [   ] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-06-29 16:25:40.523; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 5.2.0
+INFO  - 2017-06-29 16:25:40.544; [   ] org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2017-06-29 16:25:40.545; [   ] org.apache.solr.schema.IndexSchema; Reading Solr Schema from /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf/schema.xml
+INFO  - 2017-06-29 16:25:40.566; [   ] org.apache.solr.schema.IndexSchema; [archive_estcstar1] Schema name=example-DIH-solr
+INFO  - 2017-06-29 16:25:40.791; [   ] org.apache.solr.schema.IndexSchema; unique key field: uri
+INFO  - 2017-06-29 16:25:40.804; [   ] org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2017-06-29 16:25:40.811; [   ] org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2017-06-29 16:25:40.859; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'archive_estcstar1' using configuration from instancedir /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/
+INFO  - 2017-06-29 16:25:40.860; [   archive_estcstar1] org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2017-06-29 16:25:40.860; [   archive_estcstar1] org.apache.solr.core.SolrCore; [[archive_estcstar1] ] Opening new SolrCore at [/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/], dataDir=[null]
+INFO  - 2017-06-29 16:25:40.861; [   archive_estcstar1] org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2017-06-29 16:25:40.861; [   archive_estcstar1] org.apache.solr.core.SolrCore; [[archive_estcstar1] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+INFO  - 2017-06-29 16:25:40.861; [   archive_estcstar1] org.apache.solr.core.SolrCore; [[archive_estcstar1] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+INFO  - 2017-06-29 16:25:40.862; [   archive_estcstar1] org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar1
+INFO  - 2017-06-29 16:25:40.863; [   archive_estcstar1] org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar1/index/
+WARN  - 2017-06-29 16:25:40.863; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] Solr index directory '/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar1/index' doesn't exist. Creating new index...
+INFO  - 2017-06-29 16:25:40.864; [   archive_estcstar1] org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar1/index
+INFO  - 2017-06-29 16:25:40.868; [   archive_estcstar1] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar1/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4b314670; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2017-06-29 16:25:40.868; [   archive_estcstar1] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2017-06-29 16:25:40.869; [   archive_estcstar1] org.apache.solr.core.PluginBag; queryResponseWriter : 'velocity' created with startup=lazy 
+INFO  - 2017-06-29 16:25:40.869; [   archive_estcstar1] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-06-29 16:25:40.872; [   archive_estcstar1] org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2017-06-29 16:25:40.876; [   archive_estcstar1] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-29 16:25:40.877; [   archive_estcstar1] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-29 16:25:40.878; [   archive_estcstar1] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-29 16:25:40.879; [   archive_estcstar1] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2017-06-29 16:25:40.893; [   archive_estcstar1] org.apache.solr.core.PluginBag; requestHandler : '/update/extract' created with startup=lazy 
+INFO  - 2017-06-29 16:25:40.893; [   archive_estcstar1] org.apache.solr.core.PluginBag; requestHandler : '/analysis/field' created with startup=lazy 
+INFO  - 2017-06-29 16:25:40.893; [   archive_estcstar1] org.apache.solr.core.PluginBag; requestHandler : '/analysis/document' created with startup=lazy 
+INFO  - 2017-06-29 16:25:40.894; [   archive_estcstar1] org.apache.solr.core.PluginBag; requestHandler : '/suggest' created with startup=lazy 
+INFO  - 2017-06-29 16:25:40.894; [   archive_estcstar1] org.apache.solr.core.PluginBag; requestHandler : '/tvrh' created with startup=lazy 
+INFO  - 2017-06-29 16:25:40.894; [   archive_estcstar1] org.apache.solr.core.PluginBag; requestHandler : '/terms' created with startup=lazy 
+INFO  - 2017-06-29 16:25:40.895; [   archive_estcstar1] org.apache.solr.core.PluginBag; requestHandler : '/elevate' created with startup=lazy 
+INFO  - 2017-06-29 16:25:40.895; [   archive_estcstar1] org.apache.solr.core.RequestHandlers; Registered paths: /admin/mbeans,/browse,/spellchecker,/update/json/docs,/admin/luke,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/suggest,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/dataimport,/update/extract
+INFO  - 2017-06-29 16:25:40.896; [   archive_estcstar1] org.apache.solr.core.SolrCore; Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+INFO  - 2017-06-29 16:25:40.897; [   archive_estcstar1] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2017-06-29 16:25:40.897; [   archive_estcstar1] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2017-06-29 16:25:40.898; [   archive_estcstar1] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-06-29 16:25:40.899; [   archive_estcstar1] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-06-29 16:25:40.904; [   archive_estcstar1] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar1/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4b314670; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2017-06-29 16:25:40.905; [   archive_estcstar1] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2017-06-29 16:25:40.905; [   archive_estcstar1] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@10939e7[archive_estcstar1] main
+INFO  - 2017-06-29 16:25:40.906; [   archive_estcstar1] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf
+INFO  - 2017-06-29 16:25:40.906; [   archive_estcstar1] org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf}
+INFO  - 2017-06-29 16:25:40.907; [   archive_estcstar1] org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf
+INFO  - 2017-06-29 16:25:40.907; [   archive_estcstar1] org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2017-06-29 16:25:40.907; [   archive_estcstar1] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-06-29 16:25:40.908; [   archive_estcstar1] org.apache.solr.spelling.suggest.Suggester; init: {name=spellcheck,field=name_autocomplete,classname=org.apache.solr.spelling.suggest.Suggester,lookupImpl=org.apache.solr.spelling.suggest.tst.TSTLookupFactory,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-06-29 16:25:40.909; [   archive_estcstar1] org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2017-06-29 16:25:40.910; [   archive_estcstar1] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2017-06-29 16:25:40.910; [   archive_estcstar1] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-06-29 16:25:40.911; [   archive_estcstar1] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-06-29 16:25:40.911; [   archive_estcstar1] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@20dc0c1d, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2017-06-29 16:25:40.911; [   archive_estcstar1] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/conf/elevate.xml
+INFO  - 2017-06-29 16:25:40.923; [   archive_estcstar1] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-06-29 16:25:40.929; [   archive_estcstar1] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@10939e7[archive_estcstar1] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-06-29 16:25:40.930; [   archive_estcstar1] org.apache.solr.update.UpdateLog; Looking up max value of version field to seed version buckets
+INFO  - 2017-06-29 16:25:40.931; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=1 
+INFO  - 2017-06-29 16:25:40.932; [   archive_estcstar1] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-06-29 16:25:40.932; [   archive_estcstar1] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: spellcheck
+INFO  - 2017-06-29 16:25:40.932; [   archive_estcstar1] org.apache.solr.spelling.suggest.Suggester; reload()
+INFO  - 2017-06-29 16:25:40.932; [   archive_estcstar1] org.apache.solr.spelling.suggest.Suggester; build()
+INFO  - 2017-06-29 16:25:40.932; [   archive_estcstar1] org.apache.solr.update.VersionInfo; Refreshing highest value of _version_ for 65536 version buckets from index
+INFO  - 2017-06-29 16:25:40.932; [   archive_estcstar1] org.apache.solr.update.VersionInfo; No terms found for _version_, cannot seed version bucket highest value from index
+INFO  - 2017-06-29 16:25:40.934; [   archive_estcstar1] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-06-29 16:25:40.935; [   archive_estcstar1] org.apache.solr.update.UpdateLog; Could not find max version in index or recent updates, using new clock 1571556992939458560
+INFO  - 2017-06-29 16:25:40.935; [   archive_estcstar1] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2017-06-29 16:25:40.935; [   archive_estcstar1] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2017-06-29 16:25:40.937; [   archive_estcstar1] org.apache.solr.update.UpdateLog; Took 5 ms to seed version buckets with highest version 1571556992939458560
+INFO  - 2017-06-29 16:25:40.937; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] Registered new searcher Searcher@10939e7[archive_estcstar1] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-06-29 16:25:40.937; [   archive_estcstar1] org.apache.solr.core.CoreContainer; registering core: archive_estcstar1
+ERROR - 2017-06-29 16:25:40.938; [   archive_estcstar1] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Error CREATEing SolrCore 'archive_estcstar1': Could not create a new core in /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/as another core is already defined there
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:661)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Could not create a new core in /Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/as another core is already defined there
+	at org.apache.solr.core.CorePropertiesLocator.create(CorePropertiesLocator.java:59)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:631)
+	... 27 more
+
+INFO  - 2017-06-29 16:25:40.939; [   archive_estcstar1] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={dataDir=archive_estcstar1&name=archive_estcstar1&action=CREATE&instanceDir=archives} status=400 QTime=477 
+INFO  - 2017-06-29 16:26:10.949; [   ] org.apache.solr.handler.admin.CoreAdminHandler; core create command name=archive_estcstar1&action=CREATE&instanceDir=archives&dataDir=archive_estcstar1
+INFO  - 2017-06-29 16:26:10.949; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=archive_estcstar1, config=solrconfig.xml, instanceDir=archives, loadOnStartup=true, absoluteInstDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/, schema=schema.xml, transient=false, dataDir=archive_estcstar1}
+WARN  - 2017-06-29 16:26:10.949; [   ] org.apache.solr.handler.admin.CoreAdminHandler; Creating a core with existing name is not allowed
+ERROR - 2017-06-29 16:26:10.950; [   ] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Core with name 'archive_estcstar1' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:26:10.950; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={dataDir=archive_estcstar1&name=archive_estcstar1&action=CREATE&instanceDir=archives} status=500 QTime=1 
+ERROR - 2017-06-29 16:26:10.950; [   ] org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Core with name 'archive_estcstar1' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:26:40.956; [   ] org.apache.solr.handler.admin.CoreAdminHandler; core create command name=archive_estcstar1&action=CREATE&instanceDir=archives&dataDir=archive_estcstar1
+INFO  - 2017-06-29 16:26:40.957; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=archive_estcstar1, config=solrconfig.xml, instanceDir=archives, loadOnStartup=true, absoluteInstDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/, schema=schema.xml, transient=false, dataDir=archive_estcstar1}
+WARN  - 2017-06-29 16:26:40.957; [   ] org.apache.solr.handler.admin.CoreAdminHandler; Creating a core with existing name is not allowed
+ERROR - 2017-06-29 16:26:40.958; [   ] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Core with name 'archive_estcstar1' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:26:40.958; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={dataDir=archive_estcstar1&name=archive_estcstar1&action=CREATE&instanceDir=archives} status=500 QTime=2 
+ERROR - 2017-06-29 16:26:40.958; [   ] org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Core with name 'archive_estcstar1' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:27:10.966; [   ] org.apache.solr.handler.admin.CoreAdminHandler; core create command name=archive_estcstar1&action=CREATE&instanceDir=archives&dataDir=archive_estcstar1
+INFO  - 2017-06-29 16:27:10.966; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=archive_estcstar1, config=solrconfig.xml, instanceDir=archives, loadOnStartup=true, absoluteInstDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/, schema=schema.xml, transient=false, dataDir=archive_estcstar1}
+WARN  - 2017-06-29 16:27:10.967; [   ] org.apache.solr.handler.admin.CoreAdminHandler; Creating a core with existing name is not allowed
+ERROR - 2017-06-29 16:27:10.967; [   ] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Core with name 'archive_estcstar1' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:27:10.967; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={dataDir=archive_estcstar1&name=archive_estcstar1&action=CREATE&instanceDir=archives} status=500 QTime=2 
+ERROR - 2017-06-29 16:27:10.968; [   ] org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Core with name 'archive_estcstar1' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:27:40.977; [   ] org.apache.solr.handler.admin.CoreAdminHandler; core create command name=archive_estcstar1&action=CREATE&instanceDir=archives&dataDir=archive_estcstar1
+INFO  - 2017-06-29 16:27:40.978; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=archive_estcstar1, config=solrconfig.xml, instanceDir=archives, loadOnStartup=true, absoluteInstDir=/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/, schema=schema.xml, transient=false, dataDir=archive_estcstar1}
+WARN  - 2017-06-29 16:27:40.978; [   ] org.apache.solr.handler.admin.CoreAdminHandler; Creating a core with existing name is not allowed
+ERROR - 2017-06-29 16:27:40.978; [   ] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Core with name 'archive_estcstar1' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:27:40.979; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={dataDir=archive_estcstar1&name=archive_estcstar1&action=CREATE&instanceDir=archives} status=500 QTime=2 
+ERROR - 2017-06-29 16:27:40.979; [   ] org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: Core with name 'archive_estcstar1' already exists.
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleCreateAction(CoreAdminHandler.java:608)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestInternal(CoreAdminHandler.java:213)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:193)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 16:28:10.998; [   archive_estcstar1] org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2017-06-29 16:28:10.998; [   archive_estcstar1] org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2017-06-29 16:28:10.999; [   archive_estcstar1] org.apache.solr.core.SolrCore; SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+INFO  - 2017-06-29 16:28:10.999; [   archive_estcstar1] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2017-06-29 16:28:10.999; [   archive_estcstar1] org.apache.solr.update.processor.LogUpdateProcessor; [archive_estcstar1] webapp=/solr path=/update/json params={wt=json} {deleteByQuery=*:* (-1571557150288773120),commit=} 0 4
+INFO  - 2017-06-29 16:28:16.193; [   archive_estcstar1] org.apache.solr.update.processor.LogUpdateProcessor; [archive_estcstar1] webapp=/solr path=/update/json params={wt=json} {add=[http://estc.bl.uk/N10 (1571557155471884288), http://estc.bl.uk/N100 (1571557155478175744), http://estc.bl.uk/N1000 (1571557155479224320), http://estc.bl.uk/N10000 (1571557155479224321), http://estc.bl.uk/N10001 (1571557155480272896), http://estc.bl.uk/N10002 (1571557155480272897), http://estc.bl.uk/N10003 (1571557155480272898), http://estc.bl.uk/N10004 (1571557155481321472), http://estc.bl.uk/N10005 (1571557155481321473), http://estc.bl.uk/N10006 (1571557155481321474), ... (695 adds)]} 0 255
+INFO  - 2017-06-29 16:28:16.198; [   archive_estcstar1] org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2017-06-29 16:28:16.248; [   archive_estcstar1] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar1/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4b314670; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/adeelkamalmalik/Downloads/solr-5.2.0/server/solr/archives/archive_estcstar1/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4b314670; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+INFO  - 2017-06-29 16:28:16.249; [   archive_estcstar1] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 2
+INFO  - 2017-06-29 16:28:16.253; [   archive_estcstar1] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@a0dd093[archive_estcstar1] main
+INFO  - 2017-06-29 16:28:16.255; [   archive_estcstar1] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@a0dd093[archive_estcstar1] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.2.0):C695)))}
+INFO  - 2017-06-29 16:28:16.255; [   archive_estcstar1] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-06-29 16:28:16.256; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] Registered new searcher Searcher@a0dd093[archive_estcstar1] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.2.0):C695)))}
+INFO  - 2017-06-29 16:28:16.257; [   archive_estcstar1] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2017-06-29 16:28:16.257; [   archive_estcstar1] org.apache.solr.update.processor.LogUpdateProcessor; [archive_estcstar1] webapp=/solr path=/update/json params={wt=json} {commit=} 0 59
+INFO  - 2017-06-29 16:28:16.266; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/select params={q=archive:"estcstar1"&fl=*&start=0&sort=uri+asc&fq=isPartOf:http*+OR+hasPart:http*&rows=500&wt=json} hits=0 status=0 QTime=4 
+INFO  - 2017-06-29 16:28:43.462; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498753723457} status=0 QTime=0 
+INFO  - 2017-06-29 16:28:43.518; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498753723493} status=0 QTime=22 
+INFO  - 2017-06-29 16:28:45.709; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1498753725698} status=0 QTime=1 
+INFO  - 2017-06-29 16:28:45.719; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1498753725701} status=0 QTime=1 
+INFO  - 2017-06-29 16:28:45.736; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1498753725728} status=0 QTime=0 
+INFO  - 2017-06-29 16:28:45.739; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/replication params={wt=json&command=details&_=1498753725733} status=0 QTime=1 
+INFO  - 2017-06-29 16:28:45.746; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1498753725736} status=0 QTime=0 
+INFO  - 2017-06-29 16:28:45.754; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1498753725738} status=503 QTime=0 
+INFO  - 2017-06-29 16:28:45.764; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/system params={wt=json&_=1498753725734} status=0 QTime=19 
+INFO  - 2017-06-29 16:28:48.243; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1498753728236} status=0 QTime=0 
+INFO  - 2017-06-29 16:28:48.246; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/replication params={wt=json&command=details&_=1498753728240} status=0 QTime=1 
+INFO  - 2017-06-29 16:28:48.253; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1498753728248} status=0 QTime=1 
+INFO  - 2017-06-29 16:28:48.255; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1498753728250} status=503 QTime=0 
+INFO  - 2017-06-29 16:28:48.266; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/system params={wt=json&_=1498753728241} status=0 QTime=16 
+INFO  - 2017-06-29 16:28:51.000; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1498753730989} status=0 QTime=0 
+INFO  - 2017-06-29 16:28:51.005; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/replication params={wt=json&command=details&_=1498753730994} status=0 QTime=1 
+INFO  - 2017-06-29 16:28:51.012; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1498753730996} status=0 QTime=0 
+INFO  - 2017-06-29 16:28:51.014; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1498753730998} status=503 QTime=1 
+INFO  - 2017-06-29 16:28:51.032; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/system params={wt=json&_=1498753730995} status=0 QTime=23 
+INFO  - 2017-06-29 16:28:54.669; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1498753734657} status=0 QTime=1 
+INFO  - 2017-06-29 16:28:54.670; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/replication params={wt=json&command=details&_=1498753734663} status=0 QTime=1 
+INFO  - 2017-06-29 16:28:54.680; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1498753734667} status=0 QTime=0 
+INFO  - 2017-06-29 16:28:54.682; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1498753734669} status=503 QTime=0 
+INFO  - 2017-06-29 16:28:54.700; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/system params={wt=json&_=1498753734665} status=0 QTime=22 
+INFO  - 2017-06-29 16:29:13.733; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1498753753724} hits=695 status=0 QTime=2 
+INFO  - 2017-06-29 16:29:23.090; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1498753763083} status=0 QTime=1 
+INFO  - 2017-06-29 16:29:23.093; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/replication params={wt=json&command=details&_=1498753763087} status=0 QTime=1 
+INFO  - 2017-06-29 16:29:23.100; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1498753763090} status=0 QTime=1 
+INFO  - 2017-06-29 16:29:23.101; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1498753763091} status=503 QTime=0 
+INFO  - 2017-06-29 16:29:23.113; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/system params={wt=json&_=1498753763088} status=0 QTime=16 
+INFO  - 2017-06-29 16:29:28.167; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1498753768161} hits=695 status=0 QTime=1 
+INFO  - 2017-06-29 16:29:32.931; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498753772926} status=0 QTime=1 
+INFO  - 2017-06-29 16:29:32.981; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498753772961} status=0 QTime=17 
+INFO  - 2017-06-29 17:22:27.823; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1498756947806} status=0 QTime=1 
+INFO  - 2017-06-29 17:22:27.825; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1498756947806} status=0 QTime=1 
+INFO  - 2017-06-29 17:22:27.857; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1498756947844} status=0 QTime=0 
+INFO  - 2017-06-29 17:22:27.862; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/replication params={wt=json&command=details&_=1498756947852} status=0 QTime=4 
+INFO  - 2017-06-29 17:22:27.870; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1498756947857} status=0 QTime=0 
+INFO  - 2017-06-29 17:22:27.870; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1498756947860} status=503 QTime=0 
+INFO  - 2017-06-29 17:22:27.881; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/system params={wt=json&_=1498756947855} status=0 QTime=20 
+INFO  - 2017-06-29 17:22:30.430; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1498756950422} status=0 QTime=0 
+INFO  - 2017-06-29 17:22:30.433; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/replication params={wt=json&command=details&_=1498756950426} status=0 QTime=1 
+INFO  - 2017-06-29 17:22:30.442; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1498756950430} status=0 QTime=1 
+INFO  - 2017-06-29 17:22:30.447; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1498756950435} status=503 QTime=1 
+INFO  - 2017-06-29 17:22:30.457; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/admin/system params={wt=json&_=1498756950427} status=0 QTime=18 
+INFO  - 2017-06-29 17:23:33.162; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1498757013152} hits=695 status=0 QTime=1 
+INFO  - 2017-06-29 17:25:30.193; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/select params={q=*:*&indent=true&title=third&wt=json&_=1498757130184} hits=695 status=0 QTime=1 
+INFO  - 2017-06-29 17:25:31.122; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/select params={q=*:*&indent=true&title=third&wt=json&_=1498757131114} hits=695 status=0 QTime=0 
+INFO  - 2017-06-29 17:25:49.206; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/select params={q=*:*&indent=true&title=dissertation&wt=json&_=1498757149200} hits=695 status=0 QTime=1 
+INFO  - 2017-06-29 17:26:49.223; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/select params={q=*:*&indent=true&title=adolescentulis&wt=json&_=1498757209215} hits=695 status=0 QTime=0 
+INFO  - 2017-06-29 17:26:54.575; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/select params={q=*:*&indent=true&title=adolescentulis&wt=xml&_=1498757214567} hits=695 status=0 QTime=1 
+INFO  - 2017-06-29 17:27:02.998; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/select params={q=*:*&indent=true&title=adolescentulis&wt=ruby&_=1498757222986} hits=695 status=0 QTime=1 
+INFO  - 2017-06-29 17:27:07.332; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/select params={q=*:*&indent=true&title=adolescentulis&wt=python&_=1498757227328} hits=695 status=0 QTime=0 
+INFO  - 2017-06-29 17:27:12.325; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/select params={q=*:*&indent=true&title=adolescentulis&wt=json&_=1498757232320} hits=695 status=0 QTime=0 
+INFO  - 2017-06-29 18:03:45.288; [   archive_estcstar1] org.apache.solr.core.SolrCore; [archive_estcstar1] webapp=/solr path=/select params={q=*:*&indent=true&rows=1&title=adolescentulis&wt=json&_=1498759425279} hits=695 status=0 QTime=2 
+INFO  - 2017-06-29 20:19:48.817; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498767588809} status=0 QTime=3 
+INFO  - 2017-06-29 20:19:48.895; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498767588865} status=0 QTime=27 
+INFO  - 2017-06-29 20:19:51.339; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1498767591330} status=0 QTime=5 
+INFO  - 2017-06-29 20:19:51.346; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1498767591330} status=0 QTime=1 
+INFO  - 2017-06-29 20:19:51.382; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1498767591365} status=0 QTime=2 
+INFO  - 2017-06-29 20:19:51.385; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/replication params={wt=json&command=details&_=1498767591372} status=0 QTime=5 
+INFO  - 2017-06-29 20:19:51.395; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1498767591375} status=0 QTime=0 
+INFO  - 2017-06-29 20:19:51.398; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1498767591378} status=503 QTime=1 
+INFO  - 2017-06-29 20:19:51.426; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/system params={wt=json&_=1498767591374} status=0 QTime=38 
+INFO  - 2017-06-29 20:19:59.496; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=*:*&indent=true&rows=1&wt=json&_=1498767599484} hits=695 status=0 QTime=3 
+INFO  - 2017-06-29 20:20:09.126; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=*:*&indent=true&rows=1&wt=json} hits=695 status=0 QTime=0 
+INFO  - 2017-06-29 20:20:32.865; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498767632860} status=0 QTime=1 
+INFO  - 2017-06-29 20:20:32.931; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498767632897} status=0 QTime=31 
+INFO  - 2017-06-29 20:20:39.872; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=*:*&indent=true&rows=1&wt=json&_=1498767639862} hits=695 status=0 QTime=1 
+INFO  - 2017-06-29 20:33:22.044; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/query params={uri=http://estc.bl.uk/N69395} hits=0 status=0 QTime=1 
+INFO  - 2017-06-29 20:33:39.612; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498768419607} status=0 QTime=0 
+INFO  - 2017-06-29 20:33:39.670; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498768419636} status=0 QTime=30 
+INFO  - 2017-06-29 20:33:39.773; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1498768419760} hits=695 status=0 QTime=0 
+INFO  - 2017-06-29 20:35:21.422; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=title:king&indent=true&wt=json} hits=17 status=0 QTime=6 
+INFO  - 2017-06-29 20:40:07.416; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498768807411} status=0 QTime=1 
+INFO  - 2017-06-29 20:40:07.475; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498768807450} status=0 QTime=22 
+INFO  - 2017-06-29 20:40:32.711; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498768832707} status=0 QTime=0 
+INFO  - 2017-06-29 20:40:32.761; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498768832740} status=0 QTime=17 
+INFO  - 2017-06-29 20:40:49.499; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498768849495} status=0 QTime=0 
+INFO  - 2017-06-29 20:40:49.544; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498768849524} status=0 QTime=15 
+INFO  - 2017-06-29 20:41:25.220; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498768885215} status=0 QTime=0 
+INFO  - 2017-06-29 20:41:25.274; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498768885252} status=0 QTime=17 
+INFO  - 2017-06-29 20:41:28.563; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1498768888544} status=0 QTime=0 
+INFO  - 2017-06-29 20:41:28.565; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1498768888544} status=0 QTime=1 
+INFO  - 2017-06-29 20:41:28.588; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1498768888574} status=0 QTime=1 
+INFO  - 2017-06-29 20:41:28.594; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/replication params={wt=json&command=details&_=1498768888581} status=0 QTime=3 
+INFO  - 2017-06-29 20:41:28.599; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1498768888587} status=503 QTime=1 
+INFO  - 2017-06-29 20:41:28.600; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1498768888585} status=0 QTime=2 
+INFO  - 2017-06-29 20:41:28.618; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/admin/system params={wt=json&_=1498768888583} status=0 QTime=20 
+INFO  - 2017-06-29 20:41:47.158; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1498768907150} hits=695 status=0 QTime=1 
+ERROR - 2017-06-29 20:42:02.986; [   archive_estcstar] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: undefined field *
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:199)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:753)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:537)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:157)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:229)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2064)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:640)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:436)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2017-06-29 20:42:02.987; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=*:king&indent=true&wt=json&_=1498768922976} status=400 QTime=2 
+INFO  - 2017-06-29 20:42:08.751; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=king&indent=true&wt=json&_=1498768928741} hits=17 status=0 QTime=6 
+INFO  - 2017-06-29 20:42:09.837; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=king&indent=true&wt=json&_=1498768929830} hits=17 status=0 QTime=1 
+INFO  - 2017-06-29 20:42:38.466; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=king&indent=true&wt=json} hits=17 status=0 QTime=0 
+INFO  - 2017-06-29 20:57:26.647; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1498769846642} status=0 QTime=0 
+INFO  - 2017-06-29 20:57:26.710; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1498769846683} status=0 QTime=24 
+INFO  - 2017-06-29 20:57:35.352; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=*:*&indent=true&rows=100&wt=json&_=1498769855342} hits=695 status=0 QTime=1 
+INFO  - 2017-06-29 20:57:44.988; [   archive_estcstar] org.apache.solr.core.SolrCore; [archive_estcstar] webapp=/solr path=/select params={q=king&indent=true&rows=100&wt=json} hits=17 status=0 QTime=0 
