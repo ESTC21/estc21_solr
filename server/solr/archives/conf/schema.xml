@@ -214,7 +214,11 @@
 
    <field name="isPartOf" type="string" indexed="true" stored="true"  multiValued="true"/>
    <field name="hasPart" type="string" indexed="true" stored="true"  multiValued="true"/>
-   <field name="text_url" type="string" indexed="true" stored="true"/>
+
+  <field name="instanceof" type="string" indexed="true" stored="true"  multiValued="true"/>
+  <field name="hasInstance" type="string" indexed="true" stored="true"  multiValued="true"/>
+
+  <field name="text_url" type="string" indexed="true" stored="true"/>
    <field name="typewright" type="string" indexed="true" stored="true"/>
    <field name="language" type="string" indexed="true" stored="true"/>
 
