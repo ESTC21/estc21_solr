@@ -215,8 +215,31 @@
    <field name="isPartOf" type="string" indexed="true" stored="true"  multiValued="true"/>
    <field name="hasPart" type="string" indexed="true" stored="true"  multiValued="true"/>
 
+  <!-- Start: updates as per new Solr data model -->
   <field name="instanceof" type="string" indexed="true" stored="true"  multiValued="true"/>
   <field name="hasInstance" type="string" indexed="true" stored="true"  multiValued="true"/>
+  <field name="coverage" type="string" indexed="true" stored="true"  multiValued="true"/>
+  <field name="titleOfResource" type="string" indexed="true" stored="true"  multiValued="true"/>
+  <field name="abbreviatedTitle" type="string" indexed="true" stored="true"/>
+  <field name="titleProperOfSeries" type="string" indexed="true" stored="true"/>
+  <field name="variantTitle" type="string" indexed="true" stored="true"/>
+  <field name="earlierTitleProper" type="string" indexed="true" stored="true"/>
+  <field name="editionStatement" type="string" indexed="true" stored="true"/>
+  <field name="noteOnFrequency" type="string" indexed="true" stored="true"/>
+  <field name="format" type="string" indexed="true" stored="true"/>
+  <field name="type" type="string" indexed="true" stored="true"/>
+  <field name="created" type="string" indexed="true" stored="true"/>
+  <field name="issuer" type="string" indexed="true" stored="true"/>
+  <field name="publisher" type="string" indexed="true" stored="true"/>
+  <field name="rights" type="string" indexed="true" stored="true"/>
+  <field name="isReferencedBy" type="string" indexed="true" stored="true"/>
+  <field name="shelfMark" type="string" indexed="true" stored="true"/>
+  <field name="P1041" type="string" indexed="true" stored="true"/>
+  <!--"coverage", "titleOfResource", "abbreviatedTitle", "titleProperOfSeries", "variantTitle", "earlierTitleProper",-->
+  <!--"editionStatement", "noteOnFrequency", "format", "type", "created", "issuer", "publisher", "rights", "language",-->
+  <!--"isReferencedBy", "shelfMark"-->
+
+  <!-- End: updates as per new Solr data model -->
 
   <field name="text_url" type="string" indexed="true" stored="true"/>
    <field name="typewright" type="string" indexed="true" stored="true"/>
@@ -237,7 +260,7 @@
         
    <field name="sku" type="text_en_splitting_tight" indexed="true" stored="true" omitNorms="true"/>
    <field name="name" type="text_general" indexed="true" stored="true"/>
-<field name="name_autocomplete" type="text_auto" indexed="true" stored="true"/>
+   <field name="name_autocomplete" type="text_auto" indexed="true" stored="true"/>
 
 
    <field name="manu" type="text_general" indexed="true" stored="true" omitNorms="true"/>
@@ -262,7 +285,8 @@
    -->
    <field name="title" type="text_general" indexed="true" stored="true" multiValued="true"/>
    <field name="subject" type="text_general" indexed="true" stored="true" multiValued="true"/>
-   <field name="description" type="text_general" indexed="true" stored="true"/>
+   <field name="subject_uri" type="text_general" indexed="true" stored="true" multiValued="true"/>
+   <field name="description" type="text_general" indexed="true" stored="true" multiValued="true"/>
    <field name="comments" type="text_general" indexed="true" stored="true"/>
    <field name="author" type="text_general" indexed="true" stored="true"/>
    <field name="keywords" type="text_general" indexed="true" stored="true"/>
