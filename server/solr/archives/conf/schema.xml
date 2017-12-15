@@ -285,6 +285,7 @@
    -->
    <field name="title" type="text_general" indexed="true" stored="true" multiValued="true"/>
    <field name="subject" type="text_general" indexed="true" stored="true" multiValued="true"/>
+   <field name="subjectFacet" type="string" indexed="true" stored="true" multiValued="true"/>
    <field name="subject_uri" type="text_general" indexed="true" stored="true" multiValued="true"/>
    <field name="description" type="text_general" indexed="true" stored="true" multiValued="true"/>
    <field name="comments" type="text_general" indexed="true" stored="true"/>
@@ -431,6 +432,7 @@
 
    <!-- Create a string version of author for faceting -->
    <copyField source="author" dest="author_s"/>
+   <copyField source="subject" dest="subjectFacet"/>
 	
    <!-- Above, multiple source fields are copied to the [text] field. 
 	  Another way to map multiple source fields to the same 
